@@ -5,6 +5,7 @@ import com.sogou.speech.auth.v1.CreateTokenRequest;
 import com.sogou.speech.auth.v1.CreateTokenResponse;
 import com.sogou.speech.auth.v1.authGrpc;
 import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
 import io.grpc.netty.NegotiationType;
 import io.grpc.netty.NettyChannelProvider;
 import io.grpc.stub.StreamObserver;
